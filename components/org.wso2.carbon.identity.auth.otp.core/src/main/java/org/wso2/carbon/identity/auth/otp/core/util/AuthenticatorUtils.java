@@ -164,7 +164,7 @@ public class AuthenticatorUtils {
                 );
                 if (LOG.isDebugEnabled()) {
                     LOG.debug("Unable to parse the parameter: " + paramName + " with value: "
-                            + value + " to an integer.", e);
+                            + value.get() + " to an integer.", e);
                 }
             }
         }
