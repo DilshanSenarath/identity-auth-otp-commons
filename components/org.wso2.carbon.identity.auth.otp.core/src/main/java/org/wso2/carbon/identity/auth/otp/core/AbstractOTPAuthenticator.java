@@ -1762,6 +1762,7 @@ public abstract class AbstractOTPAuthenticator extends AbstractApplicationAuthen
     /**
      * Append the recaptcha related params if recaptcha is enabled for OTP authenticator.
      *
+     * @param request           HTTP servlet request.
      * @param context           Authentication context.
      * @param tenantDomain      Tenant domain.
      * @param authenticatedUser Authenticated User.
